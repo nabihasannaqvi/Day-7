@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <title>Demo CSS</title>
+        <style type="text/css">
+            div
+            {
+                height:200px;
+                width:200px;
+                transition:5s;
+                font-size:25px;
+                font-weight:bold;
+                color:rgb(66, 179, 117);
+                background-color:rgb(35, 100, 179);
+            }
+            #translateDiv:hover
+            {
+                
+                      transform:translate(500px,0px);
+                      background-color:rgb(129, 17, 155);
+                      color:rgb(48, 242, 9); 
+            }
+            #rotateDiv:hover
+            {
+                
+                        transform:rotate(-180deg);
+                      background-color:rgb(43, 163, 157);
+                      color:rgb(4, 202, 44); 
+            }
+            #rotateDiv3D:hover
+            {
+               
+                        transform:rotate3d(2,2,0,360deg);
+                      background-color:rgb(5, 166, 43);
+                      color:rgb(255, 0, 0); 
+            }
+            #skewDiv:hover{
+                
+                        transform:skew(180deg);
+                      background-color:rgb(4, 156, 57);
+                      color:rgb(193, 0, 193); 
+            }
+            #scaleDiv:hover
+            {
+                
+                      transform:scale(0.5,1.5);
+                      background-color:rgb(1, 94, 151);
+                      color:rgb(192, 192, 28); 
+            }
+            #opacityDiv:hover
+            {
+                opacity:0.4;
+            }
+            #RGBADiv:hover
+            {
+                background:rgba(1, 1, 1, 0.5);
+            }
+            #boxShadowDiv:hover
+            {
+                box-shadow:50px 50px 30px rgb(7, 7, 8);
+            }
+            #textShadow:hover
+            {
+                text-shadow:3px 3px 3px rgb(0, 0, 0);
+            }
+            #borderRadius:hover
+            {
+                border-radius:40%;
+            }
+            #OverflowDiv{overflow:auto}
+        </style>
+	</head>
+    <body>
+        <div id="translateDiv">Translate</div><hr/>
+        <div id="rotateDiv">Rotate</div><hr/>
+        <div id="rotateDiv3D">Rotate 3D</div><hr/>
+        <div id="skewDiv">Skew</div><hr/>
+        <div id="scaleDiv">Scale</div><hr/>
+        <div id="opacityDiv">Opacity</div><hr/>
+        <div id="RGBAdiv">RGBA</div><hr/>
+        <div id="boxShadowDiv">Box Shadow</div><hr/>
+        <div id="textShadow">Text Shadow</div><hr/>
+        <div id="borderRadius">Border Radius</div><hr/>
+        <div id="overflowDiv"> Overflow Overflow Overflow Overflow Overflow Overflow Overflow Overflow Overflow Overflow Overflow Overflow Overflow Overflow Overflow Overflow Overflow Overflow Overflow Overflow Overflow Overflow Overflow Overflow</div>
+    </body>
+</html>
